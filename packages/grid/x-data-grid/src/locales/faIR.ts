@@ -95,10 +95,8 @@ const faIRGrid: Partial<GridLocaleText> = {
   columnHeaderSortIconLabel: 'مرتب‌کردن',
 
   // Rows selected footer text
-  footerRowSelected: (count) =>
-    count !== 1
-      ? `${count.toLocaleString()} سطرهای انتخاب شده`
-      : `${count.toLocaleString()} سطر انتخاب شده`,
+  footerRowSelected: (count) => `${count.toLocaleString()} سطر انتخاب شده`
+ 
 
   // Total row amount footer text
   footerTotalRows: 'مجموع سطرها:',
